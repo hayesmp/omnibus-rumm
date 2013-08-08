@@ -1,0 +1,9 @@
+#!/bin/bash
+#
+# Perform necessary rumm removal steps
+# after package is uninstalled.
+#
+
+echo "rumm has been uninstalled!"
+
+exit 0
