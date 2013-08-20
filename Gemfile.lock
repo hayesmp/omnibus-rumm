@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/hayesmp/omnibus-ruby.git
-  revision: 46591a562ea1982d3c437b63889f4f05cb7d863e
+  revision: 7bcac227de5298f25aef71a22eed2ffe93fe2ee4
   branch: master
   specs:
     omnibus (1.2.0)
@@ -14,7 +14,7 @@ GIT
 
 GIT
   remote: git://github.com/hayesmp/omnibus-software.git
-  revision: 67e1946d8b5a0916332d55c0b5f7166e71d790ad
+  revision: 0fee3c341d6a8907cd22e7f9c302463bd2e2e74d
   branch: master
   specs:
     omnibus-software (0.0.1)

@@ -9,8 +9,9 @@ build_iteration 1
 
 # rumm dependencies/components
 # ncurses requires 'build-essential' package to be installed
+#dependency "ruby"
 #dependency "ncurses"
-dependency "ruby-2.0.0-p247"
+#dependency "ruby-2.0.0-p247"
 dependency "rumm"
 
 # creates required build directories
