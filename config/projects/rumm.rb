@@ -8,7 +8,10 @@ build_version   Omnibus::BuildVersion.new.semver
 build_iteration 1
 
 # rumm dependencies/components
-dependency "ruby-2.0.0-p247"
+# ncurses requires 'build-essential' package to be installed
+#dependency "ruby"
+#dependency "ncurses"
+#dependency "ruby-2.0.0-p247"
 dependency "rumm"
 
 # creates required build directories
