@@ -24,4 +24,6 @@ rm -f $DEST_DIR/$PROGNAME
 # You may want to symlink your packages bin files into /usr/bin
 ln -sf $DEST_DIR/embedded/bin/rumm /usr/bin || error_exit "Cannot link rumm to /usr/bin"
 
+echo "makeselfinst"
+
 exit 0
