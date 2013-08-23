@@ -12,6 +12,8 @@ function error_exit
   exit 1
 }
 
+ln -sf $DEST_DIR/embedded/bin/rumm /usr/bin || error_exit "Cannot link rumm to /usr/bin"
+
 echo "Thank you for installing rumm!"
 
 exit 0
