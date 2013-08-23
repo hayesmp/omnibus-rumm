@@ -5,6 +5,7 @@
 #
 
 PROGNAME=$(basename $0)
+DEST_DIR=/opt/rumm
 
 function error_exit
 {
